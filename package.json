@@ -1,0 +1,29 @@
+{
+  "name": "sand-gpsd",
+  "version": "0.0.0",
+  "description": "Sand Grain client for working with GPSD",
+  "main": "gpsd.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/SandJS/gpsd.git"
+  },
+  "keywords": [
+    "gpsd",
+    "gps",
+    "sand",
+    "client"
+  ],
+  "author": "Adam Jaso",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SandJS/gpsd/issues"
+  },
+  "homepage": "https://github.com/SandJS/gpsd#readme",
+  "dependencies": {
+    "node-gpsd": "^0.2.5",
+    "sand-grain": "^1.1.1"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "debug": true,
+
+  "source": "/Users/ajaso/projects/sand/gpsd/*",
+
+  "exclusions": [
+    ".git",
+    ".idea",
+    "node_modules"
+  ],
+
+  "targets": [
+    {
+      "host": "pi",
+      "path": "/home/pi/projects/sand/gpsd"
+    }
+  ],
+
+  "rsyncOptions": [
+    "delete",
+    "update"
+  ],
+
+  "watch": true,
+
+  "watchOptions": {
+    "ignored": [
+      ".git",
+      ".idea",
+      "node_modules"
+    ]
+  }
+}
