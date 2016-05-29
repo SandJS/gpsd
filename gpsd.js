@@ -31,4 +31,6 @@ class Gpsd extends SandGrain {
 
 }
 
+Gpsd.GpsdClient = GpsdClient;
+
 module.exports = Gpsd;
